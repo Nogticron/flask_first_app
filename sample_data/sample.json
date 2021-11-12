@@ -1,0 +1,74 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "s4CRHAAACAAJ",
+      "etag": "OWa3LivvuO8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/s4CRHAAACAAJ",
+      "volumeInfo": {
+        "title": "アラビアの夜の種族",
+        "authors": [
+          "古川日出男"
+        ],
+        "publishedDate": "2006-07",
+        "description": "聖遷暦1213年。偽りの平穏に満ちたエジプト。迫り来るナポレオン艦隊、侵掠の凶兆に、迎え撃つ支配階級奴隷アイユーブの秘策はただひとつ、極上の献上品。それは読む者を破滅に導き、歴史を覆す書物、『災厄の書』―。アイユーブの術計は周到に準備される。権力者を眩惑し滅ぼす奔放な空想。物語は夜、密かにカイロの片隅で譚り書き綴られる。「妖術師アーダムはほんとうに醜い男でございました...」。驚異の物語、第一部。",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "4043636032"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9784043636037"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 277,
+        "printType": "BOOK",
+        "categories": [
+          "Detective and mystery stories"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=s4CRHAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=s4CRHAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=s4CRHAAACAAJ&dq=isbn:9784043636037&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=s4CRHAAACAAJ&dq=isbn:9784043636037&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2%E3%81%AE%E5%A4%9C%E3%81%AE%E7%A8%AE%E6%97%8F.html?hl=&id=s4CRHAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=s4CRHAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "聖遷暦1213年。偽りの平穏に満ちたエジプト。迫り来るナポレオン艦隊、侵掠の凶兆に、迎え撃つ支配階級奴隷アイユーブの秘策はただひとつ、極上の献上品。それは読む者を破 ..."
+      }
+    }
+  ]
+}
