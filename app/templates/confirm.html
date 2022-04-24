@@ -5,37 +5,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>BOOKNOS</title>
+
+  <link rel="stylesheet" href="static/css/confirm.css">
 </head>
 
 <body>
   <h1>{{ title }}</h1>
   <div style="margin:0px;padding:0px;" align="center">
-    <table width="98%"
-      style="border-collapse: collapse;border:2px solid #000000;background-color:#FFFFFF;color:#000000;text-align:left;">
+    <table>
       <tbody>
         <tr>
-          <td style="border:2px solid #000000;text-align:left;">タイトル</td>
-          <td style="border:2px solid #000000;text-align:left;">{{ book_data['title'] }}</td>
+          <td">タイトル</td>
+          <td">{{ book_data['title'] }}</td>
         </tr>
         <tr>
-          <td style="border:2px solid #000000;text-align:left;">著者</td>
-          <td style="border:2px solid #000000;text-align:left;">{{ book_data['authors'] }}</td>
+          <td">著者</td>
+          <td">{{ book_data['authors'] }}</td>
         </tr>
         <tr>
-          <td style="border:2px solid #000000;text-align:left;">出版時期</td>
-          <td style="border:2px solid #000000;text-align:left;">{{ book_data['published_date'] }}</td>
+          <td">出版時期</td>
+          <td">{{ book_data['published_date'] }}</td>
         </tr>
         <tr>
-          <td style="border:2px solid #000000;text-align:left;">説明</td>
-          <td style="border:2px solid #000000;text-align:left;">{{ book_data['description'] }}</td>
+          <td">説明</td>
+          <td">{{ book_data['description'] }}</td>
         </tr>
         <tr>
-          <td style="border:2px solid #000000;text-align:left;">ISBN</td>
-          <td style="border:2px solid #000000;text-align:left;">{{ book_data['isbn_code'] }}</td>
+          <td">ISBN</td>
+          <td">{{ book_data['isbn_code'] }}</td>
         </tr>
         <tr>
-          <td style="border:2px solid #000000;text-align:left;">サムネイル</td>
-          <td style="border:2px solid #000000;text-align:left;">
+          <td">サムネイル</td>
+          <td">
             <img src={{ book_data['thumbnail'] }} alt="サムネイル" title="サムネイル">
           </td>
         </tr>
