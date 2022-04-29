@@ -1,9 +1,24 @@
+
 version: '3'
-services: 
-    web:
-        build: .
-        command: python3 app/app.py
-        volumes:
-            - ./app:/app
-        ports:
-            - 5000:5000
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./web/Dockerfile
+    ports:
+      - 80:80
+    depends_on:
+      - app
+    restart: always
+  app:
+    build:
+      context: .
+      dockerfile: ./app/Dockerfile
+    expose:
+      - 5000
+    volumes:
+      - './app:/project'
+    restart: always
+    environment:
+      TZ: Asia/Tokyo
